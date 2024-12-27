@@ -81,3 +81,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details
+
+## github_api_enhancement.py
+
+This file was generated as a proof of concept when MCP errors were encountered during attempts by Claude to push the fmc_route_converter.py file to this repository. It is here in case it is useful to Anthropic for improving Claude's integration with GitHub.
