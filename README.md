@@ -1,1 +1,12 @@
-IyBBU0EgdG8gRk1DIFJvdXRlIE1pZ3JhdG9yCgpUaGlzIFB5dGhvbiBzY3JpcHQgYXV0b21hdGVzIHRoZSBtaWdyYXRpb24gb2Ygc3RhdGljIHJvdXRlcyBmcm9tIENpc2NvIEFTQSB0byBGTUMtbWFuYWdlZCBGVEQgZGV2aWNlcy4gSXQncyBwYXJ0aWN1bGFybHkgdXNlZnVsIHdoZW4gbWlncmF0aW5nIGZyb20gQVNBIHRvIEZURCBhbmQgaXMgZGVzaWduZWQgdG8gd29yayB3aXRoIG5ldHdvcmsgb2JqZWN0cyB0aGF0IHdlcmUgcHJldmlvdXNseSBtaWdyYXRlZCB1c2luZyB0aGUgRmlyZXBvd2VyIE1pZ3JhdGlvbiBUb29sLg==
+# ASA to FMC Route Migrator
+
+This Python script automates the migration of static routes from Cisco ASA to FMC-managed FTD devices. It's particularly useful when migrating from ASA to FTD and is designed to work with network objects that were previously migrated using the Firepower Migration Tool.
+
+## Features
+
+- Parses ASA static route configurations
+- Matches existing network and host objects in FMC
+- Supports objects created by Firepower Migration Tool ('obj-' prefix naming convention)
+- Creates static routes in FMC for managed FTD devices
+- Provides detailed progress and error reporting
+- Includes safety checks and confirmation prompts
